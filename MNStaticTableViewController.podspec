@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "MNStaticTableViewController is a UITableViewController optimized for creating a tableview with static sections."
   s.homepage     = "https://github.com/madninja/MNStaticTableViewController"
   s.license      = {
-  	:type => 'BSD'
+  	:type => 'BSD',
   	:file => 'LICENSE'
   }
   s.author       = { 
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   }
   s.source       = { 
   	:git => "https://github.com/madninja/MNStaticTableViewController.git", 
-  	:branch => "master" 
+  	:tag => s.version.to_s
   }
   s.source_files = 'MNStaticTableViewController/MNStaticTableViewController.{h,m}'
   s.requires_arc = true
